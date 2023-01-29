@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Section Controls the Benefits sidebar, lableled aside in html*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,8 +103,9 @@ condensed to class benefit-sidebar*/
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/*Below Section controls the Linked sections at bottom of page*/
+/*Condensed CSS style code from 3 for each of the Items to 1 for all 3 the body,img,and h2*/
+.search-reputation-media {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -113,56 +114,23 @@ condensed to class benefit-sidebar*/
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.search-reputation-media img {
     max-height: 200px;
+
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-reputation-media h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*This Section Controls the appearance of the Footer margin*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
 .footer h2 {
