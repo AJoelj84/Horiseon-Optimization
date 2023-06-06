@@ -7,8 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* Changed below Section from .header to .top-navigation to indicate the
-/*Top Title and navigation bar, Section Controls functionality of Header and page links*/
+/* Header and Navigation CSS */
 .top-navigation {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-/*.hero controls the Top meeting picture*/
+/* Hero Image and Styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*Image controls for position*/
+/* Styling for Body of Page */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*.content controls the text spacing and flow on the page*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* Section Controls the Benefits sidebar, lableled aside in html*/
+/* Styling for Benefits Sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,8 +85,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Removed Multiple class sections all performing the same function 
-condensed to class benefit-sidebar*/
 
 .benefit-sidebar {
     margin-bottom: 32px;
@@ -104,8 +101,7 @@ condensed to class benefit-sidebar*/
     margin: 10px auto;
     max-width: 150px;
 }
-/*Below Section controls the Linked sections at bottom of page*/
-/*Condensed CSS style code from 3 for each of the Items to 1 for all 3 the body,img,and h2*/
+/* Middle of Page Optimization, Management, and Marketing Style */
 .search-reputation-media {
     margin-bottom: 20px;
     padding: 50px;
@@ -125,7 +121,7 @@ condensed to class benefit-sidebar*/
     font-size: 36px;
 }
 
-/*This Section Controls the appearance of the Footer margin*/
+/* Footer CSS */
 .footer {
     padding: 30px;
     clear: both;
