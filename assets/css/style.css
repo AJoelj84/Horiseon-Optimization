@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 /* Changed below Section from .header to .top-navigation to indicate the
-Top Title and navigation bar, Section Controls functionality of Header and page links*/
+/*Top Title and navigation bar, Section Controls functionality of Header and page links*/
 .top-navigation {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
